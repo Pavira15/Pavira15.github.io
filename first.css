@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Quicksand);
+}
+/* header */
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Taj Mahal.jpg") center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.banner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.banner-title{
+    font-size: 3rem;
+    font-family: var(--Playfair);
+    line-height: 1.2;
+}
+.banner-title span{
+    font-family: var(--Playfair);
+    color: var(--exDark);
+}
+.banner p{
+    padding: 1rem 0 2rem 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-family: var(--Roboto);
+    font-weight: 300;
+    word-spacing: 2px;
+}
+.banner form{
+    background: #fff;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.search-input{
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    width: 100%;
+    outline: 0;
+    padding: 0.6rem 0;
+    border: none;
+}
+.search-input::placeholder{
+    text-transform: capitalize;
+}
+.search-btn{
+    width: 40px;
+    font-size: 1.1rem;
+    color: var(--dark);
+    border: none;
+    background: transparent;
+    outline: 0;
+    cursor: pointer;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.title{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:red;
+    background-color:white;
+}
+
+img{
+    width:100%;
+    border-radius:8px;
+    margin-bottom:10px;
+}
+.box{
+    width:30%;
+    float:left;
+    margin:50px 20px;
+    background-color:#fff;
+    padding:15px;
+    border-radius:8px;
+    box-shadow:0 5px 5px rgba(0,0,0,0.15);
+}
+.box h4{
+    margin-bottom:10px;
+}
+.box p{
+    font-size:15px;
+    line-height:28px;
+    height:90px;
+    overflow:hidden;
+}
+.box a{
+    display:inline-block;
+    color:#fff;
+    background-color:#2196f3;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:8px;
+    margin-top:15px;
+}
+.box a:hover{
+    box-shadow:0 5px 5px rgba(0,0,0,0.2);
+}
+.box.ShowContent p{
+    height:auto;
+}
+.box.ShowContent a.readmore-btn{
+    background-color:red;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background:#fcfcfc;
+}
+.footer{
+    
+    background-color:black;
+    height:auto;
+    width:100vw;
+    padding-top:40px;
+    color:#fff;
+
+}
+.footer-content{
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+
+.footer-content p{
+    max-width:550px;
+    margin:10px auto;
+    line-height:38px;
+    font-size:24px;
+}
+
+.socials{
+    align-items:center;
+    justify-content:center;
+    margin:1rem 0 3rem 0;
+
+}
+.footer-bottom{
+    background:#000;
+    color:#fff;
+    width:100vw;
+    padding:20px 0;
+    text-align:center;
+}
+.footer-bottom p{
+    font-size:14px;
+    word-spacing:2px;
+    text-transform:capitalize;
+}
+
+
+
+
+
+
